@@ -8,7 +8,7 @@ def quad_solve(a,b,c):
     if D>0:
         SD = D**0.5;
         if b > 0: SD = -SD
-        print((-b + SD) / (2*a))
+        print((2*c) / (-b - SD))
         print((2*c) / (-b + SD))
 
     elif D == 0:
