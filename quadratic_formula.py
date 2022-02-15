@@ -3,6 +3,7 @@ import cmath
 
 def quad_solve(a,b,c):
 
+    #Discriminant
     D = b*b - 4*a*c
 
     if D>0:
