@@ -15,6 +15,7 @@ def quad_solve(a,b,c):
         print(-b / (2*a))
         print(-b / (2*a))
 
+    #Complex roots
     else:
         print((-b - cmath.sqrt(D)) / (2*a))
         print((-b + cmath.sqrt(D)) / (2*a))
